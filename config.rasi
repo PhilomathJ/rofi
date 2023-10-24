@@ -1,12 +1,12 @@
 configuration {
-  modes: "window,drun,run,ssh,keys,emoji,combi,calc,filebrowser";
+  modes: "window,drun,run,ssh,emoji,combi,calc";
 	terminal: "konsole";
 	run-command: "{cmd}";
 	run-list-command: "";
 	run-shell-command: "{terminal} -e {cmd}";
 
   /* combi mode settings */
-  combi-modes: "window,drun, run";
+  combi-modes: "window,drun,run";
 	combi-display-format: "<i>{mode}</i> {text}";
 	combi-hide-mode-prefix: false;
 
@@ -44,7 +44,7 @@ configuration {
 	window-thumbnail: false;
 
   timeout {
-      delay:  7;
+      delay:  10;
       action: "kb-cancel";
   }
 
