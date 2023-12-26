@@ -1,6 +1,6 @@
 configuration {
   modes: "window,drun,run,ssh,emoji,combi,calc";
-	terminal: "konsole";
+	terminal: "alacritty";
 	run-command: "{cmd}";
 	run-list-command: "";
 	run-shell-command: "{terminal} -e {cmd}";
